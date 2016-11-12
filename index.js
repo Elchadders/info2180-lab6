@@ -8,8 +8,11 @@ $(document).ready(function(){
     method: "GET",
   }).done(function(res){
     alert(res);
-  }).fail(function(err){
-    alert(err);
+  }).fail(function(error){
+    alert(error);
   });
  
 });
+
+
+   
